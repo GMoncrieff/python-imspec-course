@@ -1,7 +1,7 @@
 # python-imspec-course
 _A course on using Python to analyse imaging spectroscopy data at scale_
 
-This is a series of notebooks and lectures aimed at teaching you the basics of working with multidimensional spatial data in Python. We will work towards acquiring the skills to analyse data from imaging spectrometers such as [EMIT](https://earth.jpl.nasa.gov/emit/) and [AVIRIS](https://aviris.jpl.nasa.gov/). Our aim is to prepare collaborators involved in the [Biodiversity of the Cape (BioSCape)](https://www.bioscape.io/) campaign for the large volumens of data that the campaign will produce. We will start by introducing the basic of Python, then we will build on this by diving into more advanced data stuctures and geospatial analyses. Then we will look at details about how to make our analyses scale to very large multidimensional datasets. Finally we will analyse an imaging spectroscopy data cube using all the tool and techniques we have learnt in the preceding weeks.
+This is a series of notebooks and lectures aimed at teaching you the basics of working with multidimensional spatial data in Python. We will work towards acquiring the skills to analyse data from imaging spectrometers such as [EMIT](https://earth.jpl.nasa.gov/emit/) and [AVIRIS](https://aviris.jpl.nasa.gov/). Our aim is to prepare collaborators involved in the [Biodiversity of the Cape (BioSCape)](https://www.bioscape.io/) campaign for the large volumes of data that the campaign will produce. We will start by introducing the basics of Python, then we will build on this by diving into more advanced data stuctures and geospatial analyses. Then we will look at details about how to make our analyses scale to very large multidimensional datasets. Finally we will analyse an imaging spectroscopy data cube using all the tool and techniques we have learnt in the preceding weeks.
 
 The plan currently is:
 
@@ -11,9 +11,9 @@ The plan currently is:
 
 ## Who is this course for?
 
-This course is designed for those who have some background in programming and/or knowledge of geospatial data. You should have experience with one of the following: R, ENVI, QGIS, ArcGIS, GEE. I will not talk about foundational geospatial concepts such as geo datatypes and projections. I will assume you know this. I will also assume you know some basis programming. You do not need to have experience with Python. There is a intro notebook that will give you the necessary background. But if you already know some Python you can skip it.  
+This course is designed for those who have some background in programming and/or knowledge of geospatial data. You should have experience with one of the following: R, ENVI, QGIS, ArcGIS, GEE. I will not talk about foundational geospatial concepts such as geo datatypes and projections. I will assume you know this. I will also assume you know some basic programming. You do not need to have experience with Python. There is a intro notebook that will give you the necessary background. But if you already know some Python you can skip it.  
 
-This is not a course on imaging spectroscopy. It is a general course on hangling large, high dimensional spatial data in Python. I will skip over the details and nuances of imaging spectroscopy data and dive straight into analyses. A great course on the theory and analysis of imaging spectroscopy data in Python is [David Thompson's Imaging Spectroscopy Tutorial Materials on github](https://github.com/davidraythompson/istutor). The [EMIT data resources](https://github.com/nasa/EMIT-Data-Resources) repo also contains lots of very handy code for getting started that is applicable beyond just EMIT.
+This is not a course on imaging spectroscopy. It is a general course on handling large, high dimensional spatial data in Python. I will skip over the details and nuances of imaging spectroscopy data and dive straight into analyses. A great course on the theory and analysis of imaging spectroscopy data in Python is [David Thompson's Imaging Spectroscopy Tutorial Materials on github](https://github.com/davidraythompson/istutor). The [EMIT data resources](https://github.com/nasa/EMIT-Data-Resources) repo also contains lots of very handy code for getting started that is applicable beyond just EMIT.
 
 ## Content
 
@@ -52,4 +52,4 @@ and launch jupyter by typing
 
 ## Contribute
 
-We really welcome any contributions, additions, or corrections that you might wish to add. Please see the [contributing guide](CONTRIBUITE.md)
+We really welcome any contributions, additions, or corrections that you might wish to add. Please see the [contributing guide](CONTRIBUTE.md)
