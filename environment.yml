@@ -1,0 +1,25 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.12
+  - numpy
+  - pandas
+  - geopandas
+  - xarray
+  - rioxarray
+  - dask
+  - distributed
+  - matplotlib
+  - plotnine
+  - holoviews
+  - hvplot
+  - zarr
+  - netCDF4
+  - scipy
+  - xgboost
+  - scikit-learn
+  - fsspec
+  - jupyterlab
+  - jupyter-server-proxy
+  - ipycytoscape
