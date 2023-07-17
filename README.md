@@ -31,10 +31,18 @@ If what I just said makes no sense to you, you need to install a python package 
 
 `bash Mambaforge-something-something.sh`  
 
+replace something-something with the actual filename from your download.  
+
+Once installed, you might need to close and reopen your terminal before the `mamba` command becomes available
+
 ### 2. Clone the course repo
 Copy the content of this repo  
 
 `git clone https://github.com/GMoncrieff/python-imspec-course.git`  
+
+and cd into the folder you just cloned
+
+`cd python-imspec-course`
 
 ### 3. Install the python packages we need  
 This involves creating the python environment and installing all the packages we need into that environment  
