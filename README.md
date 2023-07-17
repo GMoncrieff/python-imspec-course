@@ -55,8 +55,17 @@ Now activate the environment
 
 and launch jupyter by typing   
 
-`jupyter-lab`  
+`jupyter-lab` 
 
+### 4. Other places to learn
+
+If you think this course is lame, or want to learn about similar things from a different perspective (using the same tools) have a look at these courses:
+
+[The Carpentries Geospatial Python lesson by Ryan Avery](https://carpentries-incubator.github.io/geospatial-python/).   
+The course focuses on accessing and analysing multiband traditional Earth Observation data   
+
+[An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro.html).  
+This course focuses on analysing earth science data more broadly.
 
 ## Contribute
 
