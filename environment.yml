@@ -21,5 +21,6 @@ dependencies:
   - scikit-learn
   - fsspec
   - jupyterlab
+  - nb_conda_kernels
   - jupyter-server-proxy
   - ipycytoscape
