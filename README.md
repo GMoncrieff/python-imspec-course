@@ -21,7 +21,7 @@ This is not a course on imaging spectroscopy. It is a general course on handling
 | ---- | -------------------------------------- | -------------------------------------- | ---------------- |
 | 0    | Python basics                          | [0_Basics.ipynb](0_Basics.ipynb)       |                  |
 | 1    | Scalable geospatial analysis in Python | [1_Geopython.ipynb](1_Geopython.ipynb) | [link](https://ub.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8c60f4b4-9c4e-4803-adbe-b04200e9b869)    |
-| 2    | Imaging spectroscopy data at scale     | _coming soonish_                       | _coming soonish_ |
+| 2    | Imaging spectroscopy data at scale     | [2_Mix_and_train.ipynb](1_Geopython.ipynb) [3_Unmix_image.ipynb](1_Geopython.ipynb)                       | _coming soon_ |
 
 ## Setup 
 ### 1. Get a python package manager
