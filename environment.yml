@@ -24,3 +24,10 @@ dependencies:
   - nb_conda_kernels
   - jupyter-server-proxy
   - ipycytoscape
+  - earthaccess
+  - spectral
+  - s3fs
+  - fsspec
+  - einops
+  - sktime
+  
