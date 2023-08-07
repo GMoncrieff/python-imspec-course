@@ -154,6 +154,7 @@ cython_debug/
 
 #data
 /data/unmixed
+/data/downloads
 
 #urg
 .DS_Store

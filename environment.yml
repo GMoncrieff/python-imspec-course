@@ -30,4 +30,6 @@ dependencies:
   - fsspec
   - einops
   - sktime
+  - h5netcdf
+  - datashader
   

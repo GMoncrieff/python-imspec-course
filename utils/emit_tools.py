@@ -515,3 +515,12 @@ def raw_spatial_crop(ds, shape):
     clipped_ds = clipped_ds.assign_coords({'downtrack':(['downtrack'],np.arange(0,clipped_ds[list(ds.data_vars.keys())[0]].shape[0])),'crosstrack':(['crosstrack'],np.arange(0,clipped_ds[list(ds.data_vars.keys())[0]].shape[1]))})
     
     return clipped_ds
+
+def gamma_adjust(rgb_ds, bright=0.2, white_background=False):
+    array = rgb_ds.reflectance.data
+    gamma = math.log(bright)/math.log(np.nanmean(array)) # Create exponent for gamma scaling - can be adjusted by changing 0.2 
+    scaled = np.power(array,gamma).clip(0,1) # Apply scaling and clip to 0-1 range
+    if white_background == True:
+        scaled = np.nan_to_num(scaled, nan = 1) # Assign NA's to 1 so they appear white in plots
+    rgb_ds.reflectance.data = scaled
+    return rgb_ds
